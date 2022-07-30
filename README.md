@@ -25,7 +25,7 @@ In the `tasks.json` file, create a cpp task type:
       ],
       "output": "${workspaceFolder}/debug/${fileBasenameNoExtension}.exe",
       "options": {
-        "cwd": "${fileDirname}"
+        "cmd": "${fileDirname}"
       },
       "group": "build"
     }
